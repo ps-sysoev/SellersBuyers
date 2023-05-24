@@ -1,6 +1,5 @@
 package ru.sysoev.sellersbuyers.controllers;
 
-import freemarker.ext.beans.StringModel;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
