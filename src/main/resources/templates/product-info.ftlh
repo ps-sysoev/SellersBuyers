@@ -9,6 +9,11 @@
 <h1>Sellers and Buyers</h1>
 <hr>
 <h4>Подробная информация о товаре</h4>
+
+<#list images as img>
+    <img src="/images/${img.id}" height="60px" /> <br><br>
+</#list>
+
 <b>Название: </b> ${product.title}<br>
 <b>Описание: </b> ${product.description}<br>
 <b>Цена: </b> ${product.price}<br>
